@@ -61,7 +61,10 @@ python scripts/evaluate_minutiae_matching.py --limit 500
 - **matcher.py** -- Hough-voting for candidate rigid alignments, Hungarian
   one-to-one pairing refined by a Kabsch least-squares fit, with an
   overlap-normalized score.
-
+- **matching.py** -- an earlier, simpler correlation-based matcher, kept for
+  reference; replaced by matcher.py (minutiae-based) because non-rigid skin
+  deformation between impressions defeats plain image correlation. See
+  `scripts/evaluate_matching.py` vs `scripts/evaluate_minutiae_matching.py`.
 ## Setup
 
 ```bash

@@ -5,4 +5,7 @@ __pycache__/
 data/
 .ipynb_checkpoints/
 *.ipynb
-output/
+output/out/
+audit-prompt.txt
+out/
+audit-prompt.txt
