@@ -2,8 +2,7 @@
 __pycache__/
 .pytest_cache/
 *.pyc
-
 data/
 .ipynb_checkpoints/
 *.ipynb
-*.egg-info/
+output/

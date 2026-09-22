@@ -1,0 +1,33 @@
+Analyze the entire current project repository.
+
+Do NOT modify, create, delete, rename, or refactor any files.
+Analysis only.
+
+I am building a Python fingerprint-recognition project for an AI/ML job.
+The employer asked me to work with FVC2000, FVC2002, FVC2004 and FVC2006,
+and suggested using pyfing to test or reimplement fingerprint-processing modules.
+
+Create a detailed technical report covering:
+
+1. Project structure
+2. All implemented modules, classes and functions
+3. Dataset loading and FVC handling
+4. Current fingerprint-processing pipeline
+5. Detailed analysis of segmentation
+6. Existing tests
+7. pyproject.toml and Python package structure
+8. Dependencies
+9. Git/GitHub readiness
+10. Completed parts
+11. Incomplete or temporary parts
+12. Completely missing parts
+13. Architecture/design issues
+14. Which parts should be compared with or reimplemented from pyfing
+15. A prioritized NEXT STEPS roadmap
+
+Use only the actual code in the repository.
+Do not assume functionality that does not exist.
+Do not write code.
+Do not modify any files.
+
+At the end, identify ONE specific next implementation task that should be done first.
